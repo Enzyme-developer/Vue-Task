@@ -23,7 +23,7 @@ export default {
 </script>
 
 <template>
-  <div class="flex">
+  <div class="flex overflow-scroll">
     <!-- sidebar -->
     <div class=" hidden md:flex flex-col h-[100vh]  w-[290px] max-h-[100vh] overflow-auto no-scrollbar">
       <div class="px-7 mt-[40px]">
