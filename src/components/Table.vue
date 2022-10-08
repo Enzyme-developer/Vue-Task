@@ -1,5 +1,5 @@
 <template>
-    <div class=" no-scrollbar">
+    <div class="no-scrollbar">
         <h1 class="mt-6 mb-10 font-medium text-xl leading-8">Recent results</h1>
 
         <div class="bg-[#fff] px-6 py-[21px] rounded-lg">
