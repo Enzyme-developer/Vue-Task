@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="overflow-x-hidden">
         <h1 class="mt-6 mb-10 font-medium text-xl leading-8">Recent results</h1>
 
         <div class="bg-[#fff] px-6 py-[21px] rounded-lg">
@@ -11,7 +11,7 @@
             <h1 class="font-medium text-lg">UX Research</h1>
             <img src="../assets/collapse.png" @click="table1 = !table1"/>
         </div>
-        <table v-if="table1" class="text-sm w-full table border-spacing-24 text-left pl-6">
+        <table v-if="table1" class="overflow-scroll text-sm w-full table border-spacing-24 text-left pl-6">
             <thead class="px-6">
                 <tr class="h-12">
                 <th>Name</th>
@@ -56,7 +56,7 @@
                 <h1 class="font-medium text-lg">UX Principles</h1>
                 <img src="../assets/collapse.png" @click="table2 = !table2" />
             </div>
-            <table  v-if="table2" class="text-sm w-full table border-spacing-24 text-left pl-6">
+            <table  v-if="table2" class="overflow-x-auto text-sm w-full table border-spacing-24 text-left pl-6">
             <thead class="px-6">
                 <tr class="h-12">
                 <th>Name</th>
@@ -102,7 +102,7 @@
                 <h1 class="font-medium text-lg">Typography</h1>
                 <img src="../assets/collapse.png" @click="table3 = !table3"/>
             </div>
-            <table  v-if="table3" class="text-sm w-full table border-spacing-24 text-left px-6 no-scrollbar">
+            <table  v-if="table3" class="overflow-x-auto text-sm w-full table border-spacing-24 text-left px-6 no-scrollbar">
             <thead class="px-6">
                 <tr class="h-12 font-normal">
                 <th>Name</th>

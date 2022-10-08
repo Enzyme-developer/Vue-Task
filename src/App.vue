@@ -25,13 +25,13 @@ export default {
 <template>
   <div class="flex">
     <!-- sidebar -->
-    <div class=" flex flex-col  w-[290px] max-h-fit overflow-auto no-scrollbar">
-      <div class="px-7 mt-[140px]">
+    <div class=" hidden md:flex flex-col h-[100vh]  w-[290px] max-h-[100vh] overflow-auto no-scrollbar">
+      <div class="px-7 mt-[40px]">
         <div class="flex mb-3 items-center">
           <img src="./assets/bar-chart-square-02.png" class="mr-3" alt='icon'/>
           <p class="font-semibold text-base leading-6 text-primary">Dashboard</p>
         </div>
-        <div class="flex mb-[140px] items-center">
+        <div class="flex mb-[40px] items-center">
           <img src="./assets/user.png" class="mr-3" alt='icon'/>
           <p class="font-semibold text-base leading-6">Team</p>
         </div>
