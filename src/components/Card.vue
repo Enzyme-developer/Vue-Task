@@ -5,7 +5,7 @@
         <div class="flex flex-col p-4 w-full md:w-[330px] h-[268px] rounded-lg mr-6 bg-[#ffffff] relative">
             <img @click="show = !show" src="../assets/hamburger.png" alt='toggle' class="flex self-end" />
             <div class="flex items-center">
-                <img src='../assets/User Research.png' alt='icon' class="w-[100px] h-[100px] mr-4" />
+                <img src='../assets/User-Research.png' alt='icon' class="w-[100px] h-[100px] mr-4" />
                 <div>
                     <h1 class="text-[#101828] text-[16px] leading-6 font-semibold">UX Research</h1>
                     <p class="text-sm font-normal my-1 text-[#475467]">25 questions</p>
@@ -25,7 +25,7 @@
         <div class="flex flex-col p-4 w-[330px] h-[268px] rounded-lg mr-6 bg-[#ffffff] relative">
             <img src="../assets/hamburger.png" alt='toggle' class="flex self-end" @click="show2 = !show2"/>
             <div class="flex items-center">
-                <img src='../assets/UX Principles.png' alt='icon' class="w-[100px] h-[100px] mr-4" />
+                <img src='../assets/UX-Principles.png' alt='icon' class="w-[100px] h-[100px] mr-4" />
                 <div>
                     <h1 class="text-[#101828] text-[16px] leading-6 font-semibold">UX Research</h1>
                     <p class="text-sm font-normal my-1 text-[#475467]">25 questions</p>
