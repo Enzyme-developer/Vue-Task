@@ -21,7 +21,7 @@
                 <th class="flex items-center mt-[15px]">Role<span><img class='ml-1' src='../assets/help-circle.png' /></span></th>
                 <th>Score</th>
                 <th>Time used</th>
-                <th></th>
+                <th>View</th>
                 </tr>
             </thead>
             <tbody>
@@ -69,7 +69,7 @@
                 <th class="flex items-center mt-[15px]">Role<span><img class='ml-1' src='../assets/help-circle.png' /></span></th>
                 <th>Score</th>
                 <th>Time used</th>
-                <th></th>
+                <th>View</th>
                 </tr>
             </thead>
             <tbody>
@@ -118,7 +118,7 @@
                 <th class="flex items-center mt-[15px]">Role<span><img class='ml-1' src='../assets/help-circle.png' /></span></th>
                 <th>Score</th>
                 <th>Time used</th>
-                <th></th>
+                <th>View</th>
                 </tr>
             </thead>
             <tbody>

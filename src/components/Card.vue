@@ -1,8 +1,10 @@
 <template>
-    <div class="mt-8 overflow-scroll no-scrollbar">
+    <div class="flex flex-col mt-8 overflow-scroll no-scrollbar ">
         <h1 class="font-semibold text-xl leading-8 mb-6">Recent workbooks</h1>
-        <div class="no-scrollbar flex flex-wrap md:flex-nowrap overflow-scroll items-center space-x-0 space-y-4 md:space-y-0 md:space-x-8">
-        <div class="flex flex-col p-4 w-full md:w-[330px] h-[268px] rounded-lg bg-[#ffffff] relative">
+
+        <div class="overflow-x-scroll no-scrollbar flex flex-wrap md:flex-nowrap w-full space-x-0 space-y-4 md:space-y-0 md:space-x-8 ">
+            
+            <div class="flex flex-col p-4 w-full md:w-[330px] min-w-[330px] h-[268px] rounded-lg bg-[#ffffff] relative">
             <img @click="show = !show" src="../assets/hamburger.png" alt='toggle' class="flex self-end" />
             <div class="flex items-center">
                 <img src='../assets/User-Research.png' alt='icon' class="w-[100px] h-[100px] mr-4" />
@@ -22,7 +24,8 @@
             <div v-else></div>
         </div>
 
-        <div class="flex flex-col p-4 w-full md:w-[330px] h-[268px] rounded-lg bg-[#ffffff] relative">
+
+        <div class="flex flex-col p-4 w-full md:w-[330px] min-w-[330px] h-[268px] rounded-lg bg-[#ffffff] relative">
             <img src="../assets/hamburger.png" alt='toggle' class="flex self-end" @click="show2 = !show2"/>
             <div class="flex items-center">
                 <img src='../assets/UX-Principles.png' alt='icon' class="w-[100px] h-[100px] mr-4" />
@@ -42,7 +45,7 @@
             <div v-else></div>
         </div>
 
-        <div class="flex flex-col p-4 w-full md:w-[330px] h-[268px] rounded-lg bg-[#ffffff] relative">
+        <div class="flex flex-col p-4 w-full md:w-[330px] min-w-[330px] h-[268px] rounded-lg bg-[#ffffff] relative">
             <img src="../assets/hamburger.png" alt='toggle' class="flex self-end" @click="show3 = !show3"/>
             <div class="flex items-center">
                 <img src='../assets/Typography.png' alt='icon' class="w-[100px] h-[100px] mr-4" />
@@ -68,7 +71,7 @@
         </div>
 
     </div>
-    </div>
+</div>
 </template>
 
 <script>
