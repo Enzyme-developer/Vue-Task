@@ -23,17 +23,17 @@ export default {
 </script>
 
 <template>
-  <div class="flex bg-green-400">
+  <div class="flex">
     <!-- sidebar -->
-    <div class=" flex flex-col h-[100vh] w-[290px] max-h-fit overflow-auto no-scrollbar">
-      <div class="px-7 mt-[40px]">
+    <div class=" flex flex-col  w-[290px] max-h-fit overflow-auto no-scrollbar">
+      <div class="px-7 mt-[140px]">
         <div class="flex mb-3 items-center">
           <img src="./assets/bar-chart-square-02.png" class="mr-3" alt='icon'/>
           <p class="font-semibold text-base leading-6 text-primary">Dashboard</p>
         </div>
-        <div class="flex mb-[80px] items-center">
+        <div class="flex mb-[140px] items-center">
           <img src="./assets/user.png" class="mr-3" alt='icon'/>
-          <p class="font-semibold text-base leading-6">Dashboard</p>
+          <p class="font-semibold text-base leading-6">Team</p>
         </div>
 
         <div class="flex mb-3 items-center">
@@ -55,7 +55,7 @@ export default {
     </div>
 
     <!-- main -->
-    <div class="w-full bg-[#F9FAFB] h-[100vh] px-6 overflow-auto">
+    <div class="w-full bg-[#F9FAFB] h-[100vh] px-6 overflow-auto no-scrollbar">
       <Navbar />
       <Card />
       <Table />

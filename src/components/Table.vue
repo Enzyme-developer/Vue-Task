@@ -12,7 +12,7 @@
             <img src="../assets/collapse.png" @click="table1 = !table1"/>
         </div>
         <table v-if="table1" class="text-sm w-full table border-spacing-24 text-left pl-6">
-            <thead class="">
+            <thead class="px-6">
                 <tr class="h-12">
                 <th>Name</th>
                 <th>Email</th>
@@ -57,7 +57,7 @@
                 <img src="../assets/collapse.png" @click="table2 = !table2" />
             </div>
             <table  v-if="table2" class="text-sm w-full table border-spacing-24 text-left pl-6">
-            <thead class="">
+            <thead class="px-6">
                 <tr class="h-12">
                 <th>Name</th>
                 <th>Email</th>
@@ -103,7 +103,7 @@
                 <img src="../assets/collapse.png" @click="table3 = !table3"/>
             </div>
             <table  v-if="table3" class="text-sm w-full table border-spacing-24 text-left px-6 no-scrollbar">
-            <thead class="">
+            <thead class="px-6">
                 <tr class="h-12 font-normal">
                 <th>Name</th>
                 <th>Email</th>
