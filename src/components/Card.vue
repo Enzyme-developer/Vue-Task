@@ -86,9 +86,9 @@ export default {
     },
     data() {
         return {
-            show: true,
-            show2: true,
-            show3: true
+            show: false,
+            show2: false,
+            show3: false
         }
     }
 }
