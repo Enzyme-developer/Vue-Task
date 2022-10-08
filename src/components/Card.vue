@@ -2,7 +2,7 @@
     <div class="flex flex-col mt-8 overflow-scroll no-scrollbar ">
         <h1 class="font-semibold text-xl leading-8 mb-6">Recent workbooks</h1>
 
-        <div class="overflow-x-scroll no-scrollbar flex flex-wrap md:flex-nowrap w-full space-x-0 space-y-4 md:space-y-0 md:space-x-8 ">
+        <div class="overflow-x-scroll no-scrollbar max-w-[100%] flex flex-wrap md:flex-nowrap w-full space-x-0 space-y-4 md:space-y-0 md:space-x-8 ">
             
             <div class="flex flex-col p-4 w-full md:w-[330px] min-w-[330px] h-[268px] rounded-lg bg-[#ffffff] relative">
             <img @click="show = !show" src="../assets/hamburger.png" alt='toggle' class="flex self-end" />
@@ -15,7 +15,7 @@
                 </div>
             </div>
             <p class="text-sm font-normal my-4 text-[#475467]">Used space Contains questions that will help improve your design thinking process to enhance your UX design.</p>
-            <img src='../assets/cardImage1.png' class='mt-4' />
+            <img src='../assets/cardImage1.png' class='my-4' />
             <div v-if="show" class="shadow-xl bg-[#ffffff] w-[213px] p-[14px] flex flex-col rounded-lg absolute top-8 right-[11px]">
                 <p class="cursor-pointer flex text-sm text-black font-normal p-[10px] rounded-lg bg-[#F9FAFB]"><img src='../assets/ShareNetwork.png' class="mr-2"/>Share workbook</p>
                 <p class="cursor-pointer flex text-sm text-black font-normal p-[10px]"><img src='../assets/edit-02.png' class="mr-2"/>Edit</p>
@@ -36,7 +36,7 @@
                 </div>
             </div>
             <p class="text-sm font-normal my-4 text-[#475467]">Used space Contains questions that will help improve your design thinking process to enhance your UX design.</p>
-            <img src='../assets/cardImage2.png' class='mt-4' />
+            <img src='../assets/cardImage2.png' class='my-4' />
              <div v-if="show2" class="shadow-xl bg-[#ffffff] w-[213px] p-[14px] flex flex-col rounded-lg absolute top-8 right-[11px]">
                 <p class="cursor-pointer flex text-sm text-black font-normal p-[10px] rounded-lg bg-[#F9FAFB]"><img src='../assets/ShareNetwork.png' class="mr-2"/>Share workbook</p>
                 <p class="cursor-pointer flex text-sm text-black font-normal p-[10px]"><img src='../assets/edit-02.png' class="mr-2"/>Edit</p>
@@ -56,7 +56,7 @@
                 </div>
             </div>
             <p class="text-sm font-normal my-4 text-[#475467]">Used space Contains questions that will help improve your design thinking process to enhance your UX design.</p>
-            <img src='../assets/cardImage3.png' class='mt-4' />
+            <img src='../assets/cardImage3.png' class='my-4' />
             <div v-if="show3" class="shadow-xl bg-[#ffffff] w-[213px] p-[14px] flex flex-col rounded-lg absolute top-8 right-[11px]">
                 <p class="cursor-pointer flex text-sm text-black font-normal p-[10px] rounded-lg bg-[#F9FAFB]"><img src='../assets/ShareNetwork.png' class="mr-2"/>Share workbook</p>
                 <p class="cursor-pointer flex text-sm text-black font-normal p-[10px]"><img src='../assets/edit-02.png' class="mr-2"/>Edit</p>
